@@ -1,55 +1,61 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import Feature from "../Feature/Feature";
 // import { addToDb } from "../../utilities/fakedb";
 
-const FeatureJobs = ({ feature }) => {
-  // const showJobDetails = (id) =>{
-  //   console.log(id);
-  //   // addToDb(id)
-  // }
-  // const navigate = useNavigate()
-  const {
-    id,
-    jobTitle,
-    companyLogo,
-    companyName,
-    RemoteOnsite,
-    location,
-    time,
-    salary,
-    jobDescription,
-    jobResponsibility,
-    educationalRequirements,
-    Experiences,
-    phone,
-    email,
-    website,
-  } = feature;
+const FeatureJobs = () => {
+  const [isShow, setIsShow] = useState([]);
+  // console.log("is show" ,isShow);
+  const [featureJob, setFeatureJob] = useState([]);
+  
+  useEffect(() => {
+    fetch("featureJobs.json")
+      .then((res) => res.json())
+      .then((data) => setFeatureJob(data));
+  }, []);
+  if (featureJob.length === 6) {
+    const dataSlice = featureJob.slice(0, 4);
+    // console.log("slice",dataSlice);
+    setFeatureJob(dataSlice);
+    setIsShow(featureJob);
+  }
+
+  const handleSeeMoreButton = () => {
+    if (isShow.length === 6) {
+      const dataSlice = isShow.slice(4,6);
+      dataSlice.map(sliceData => setIsShow(sliceData))
+      // console.log("6 slice", dataSlice);
+      // setIsShow(dataSlice);
+    }
+  };
+
   return (
     <div>
-      <div className=" border-solid border shadow-lg rounded-md p-14 ">
-        <img className="mb-5 " src={companyLogo} alt="" />
-        <p className="font-semibold mb-2 text-2xl">{jobTitle}</p>
-        <p className="mb-2 text-xl text-gray-400">{companyName}</p>
-        <div className="flex gap-5 font-semibold mb-2">
-          <p className=" text-violet-700 border-violet-200 border  p-2 rounded">
-            {RemoteOnsite}
-          </p>
-          <p className="  text-violet-700 border border-violet-200 p-2 rounded">
-            {time}
+      <section className="job-feature mb-8">
+        {/* job feature heading */}
+        <div className="job-feature-heading  flex flex-col   items-center  justify-center">
+          <h1 className="w-3/5 font-extrabold mb-8 text-center">
+            Featured Jobs
+          </h1>
+          <p className="  mb-8 text-gray-400">
+            Explore thousands of job opportunities with all the information you
+            need. Its your future
           </p>
         </div>
-        <div className="mb-5 flex">
-          <p className="   text-gray-400 mr-10">{location}</p>
-          <p className="  text-gray-400">{salary}</p>
+        {/* feature job details */}
+
+        <div className="grid grid-cols-1 lg:grid-cols-2  gap-8 items-center justify-around py-10">
+          {featureJob.map((data) => (
+            <Feature key={data.id} data={data}></Feature>
+          ))}
         </div>
-        <Link to={`/job/${id}`}>
-          <button className="btn  text-white bg-violet-700">
-            View Details
-          </button>
-        </Link>
-        {/* <button onClick={()=>navigate(`job/${id}`)}>View</button> */}
-      </div>
+        <button
+          onClick={()=>handleSeeMoreButton()}
+          className="see-all-button btn  text-white bg-violet-700 mx-auto mt-5"
+        >
+          See All Jobs
+        </button>
+      </section>
     </div>
   );
 };

@@ -13,12 +13,23 @@ const Statistics = () => {
     { name: "Assignment 7", value: 60 },
     { name: "Assignment 8", value: 60 },
   ];
+  const data02 = [
+    { name: "Assignment 1", value: 60 },
+    { name: "Assignment 2", value: 60 },
+    { name: "Assignment 3", value: 56 },
+    { name: "Assignment 4", value: 50 },
+    { name: "Assignment 5", value: 51 },
+    { name: "Assignment 6", value: 56 },
+    { name: "Assignment 7", value: 60 },
+    { name: "Assignment 8", value: 60 },
+  ];
 
   return (
-    <div className="lg:flex sm:my-auto justify-center items-center"> 
-          <div className="sm:-96">
-      <h1 className="p-2 text-purple-300 text-center mb-8">Assignment Information</h1>
-      <table className=" border ">
+    <div className="lg:grid items-center justify-center sm:col-auto "> 
+     <div className="col-span-10 mb-10   "> <h1 className=" text-purple-300  ">Assignment Information</h1></div>
+          <div className="col-start-1 col-end-3 " >
+    
+      <table className=" border  ">
         <thead className="border-spacing-6">
           <tr className="border border-violet-800 p-4">
             <th className="p-2 ">ID</th>
@@ -71,7 +82,7 @@ const Statistics = () => {
       </table>
       </div>
 
-      <div>
+      <div className="col-end-7 col-span-2">
         {" "}
        
           <PieChart width={450} height={250} data={data01}>
@@ -84,6 +95,17 @@ const Statistics = () => {
               fill="#8884d8"
             />
              <Tooltip />
+
+             <Pie
+            data={data02}
+            dataKey="value"
+            cx="50%"
+            cy="50%"
+            innerRadius={70}
+            outerRadius={90}
+            fill="#82ca9d"
+            label
+          />
          
           </PieChart>
        

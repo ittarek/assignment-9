@@ -3,7 +3,7 @@ import React from "react";
 const JobsCategory = ({ job }) => {
   const { name, JobsAvailable, logo } = job;
   return (
-    <div className="bg-red-50 p-10 rounded-xl">
+    <div className="bg-red-50 p-10 mb-8 rounded-xl">
       <img className="mb-4" src={logo} alt="" />
       <h3 className="mb-4 font-bold">{name}</h3>
 
