@@ -1,33 +1,17 @@
 import React, { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import Feature from "../Feature/Feature";
-// import { addToDb } from "../../utilities/fakedb";
 
 const FeatureJobs = () => {
-  const [isShow, setIsShow] = useState([]);
-  // console.log("is show" ,isShow);
+  const [showAll, setShowAll] = useState(false);
+
   const [featureJob, setFeatureJob] = useState([]);
-  
+
   useEffect(() => {
     fetch("featureJobs.json")
       .then((res) => res.json())
       .then((data) => setFeatureJob(data));
   }, []);
-  if (featureJob.length === 6) {
-    const dataSlice = featureJob.slice(0, 4);
-    // console.log("slice",dataSlice);
-    setFeatureJob(dataSlice);
-    setIsShow(featureJob);
-  }
-
-  const handleSeeMoreButton = () => {
-    if (isShow.length === 6) {
-      const dataSlice = isShow.slice(4,6);
-      dataSlice.map(sliceData => setIsShow(sliceData))
-      // console.log("6 slice", dataSlice);
-      // setIsShow(dataSlice);
-    }
-  };
 
   return (
     <div>
@@ -45,13 +29,13 @@ const FeatureJobs = () => {
         {/* feature job details */}
 
         <div className="grid grid-cols-1 lg:grid-cols-2  gap-8 items-center justify-around py-10">
-          {featureJob.map((data) => (
+          {featureJob.slice(0, showAll ? 6 : 4).map((data) => (
             <Feature key={data.id} data={data}></Feature>
           ))}
         </div>
-        <button
-          onClick={()=>handleSeeMoreButton()}
-          className="see-all-button btn  text-white bg-violet-700 mx-auto mt-5"
+        <button 
+          onClick={() => setShowAll(true)}
+          className="see-all-button btn  text-white bg-violet-700 sm:mr-32 mx-auto mt-5"
         >
           See All Jobs
         </button>

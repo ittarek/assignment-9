@@ -25,10 +25,10 @@
     "companyName": "Netflix",
 
     "RemoteOnsite": "Onsite",
-    "location": "Dhaka, Bangladesh",
+    "location": "Mobmai, Indea",
     "time": "Fulltime",
 
-    "salary": "Salary : 100K - 150K",
+    "salary": "Salary : 25K - 50K",
     "jobDescription": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.u",
     "jobResponsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members. ",
     "educationalRequirements": "Bachelor degree to complete any reputational university.",
@@ -39,15 +39,15 @@
   },
   {
     "id": "3",
-    "jobTitle": "Software Engineer",
+    "jobTitle": "Meckanicale Engineer",
     "companyLogo": "src/assets/logo/tesla-9 1.png",
     "companyName": "Tesla",
 
     "RemoteOnsite": "Onsite",
-    "location": " Dhaka, Bangladesh ",
+    "location": " London, Uk ",
     "time": "Fulltime",
 
-    "salary": "Salary : 100K - 150K",
+    "salary": "Salary : 500K - 550K",
 
     "jobDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu",
     "jobResponsibility": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore          ",
@@ -64,10 +64,10 @@
     "companyName": "Google LLC",
     "RemoteOnsite": "Remote",
 
-    "location": "Dhaka, Bangladesh",
+    "location": "Chittagong, Bangladesh",
     "time": "Fulltime",
 
-    "salary": "Salary : 100K - 150K",
+    "salary": "Salary : 50K - 100K",
     "jobDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu",
     "jobResponsibility": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore          ",
     "educationalRequirements": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore",
@@ -78,15 +78,15 @@
   },
   {
     "id": "5",
-    "jobTitle": "Job Title",
-    "companyLogo": "src/assets/Icons/accounts 1.png",
-    "companyName": "Account & Finance",
-    "RemoteOnsite": "Remote",
+    "jobTitle": "Nokia",
+    "companyLogo": "https://cdn.dribbble.com/users/14268/screenshots/20773321/5c3653bf-77b8-45dd-a344-1f0a9f9b0850_4x.png",
+    "companyName": "Salse manader",
+    "RemoteOnsite": "Onsite",
 
-    "location": "San Francisco, CA",
+    "location": "Nort Koria, NK",
     "time": "Fulltime",
 
-    "salary": "100000",
+    "salary": "Salary : 95K - 100K",
     "jobDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu",
     "jobResponsibility": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore          ",
     "educationalRequirements": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore",
@@ -102,10 +102,10 @@
     "companyName": "Amazon",
     "RemoteOnsite": "Onsite",
 
-    "location": "San Francisco, CA",
+    "location": "Los Angelas, CA",
     "time": "partTime",
 
-    "salary": "100000",
+    "salary": "Salary : 250K - 350K",
     "jobDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu",
     "jobResponsibility": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore          ",
     "educationalRequirements": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore",
