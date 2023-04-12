@@ -2,7 +2,7 @@
   {
     "id": "1",
     "jobTitle": "Technical Database Engineer",
-    "companyLogo": "src/assets/logo/google-1-1 1-1.png",
+    "companyLogo": "https://lh3.googleusercontent.com/R-Ths1oO5h3yYse-jd3cr-XPLhUgnPVe1v7yeHvXiW-HW4sG5YhSxuIuOtaI__VlqSMzUHLnwscHtgzUZK0WStMxx3R_aulhYO3ue9u7Qw=s660",
     "companyName": "Google LLC",
     "RemoteOnsite": "Remote",
 
@@ -21,7 +21,7 @@
   {
     "id": "2",
     "jobTitle": "Senior Product Designer",
-    "companyLogo": "src/assets/logo/netflix-4 1.png",
+    "companyLogo": "https://images.unsplash.com/photo-1621955964441-c173e01c135b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=886&q=80",
     "companyName": "Netflix",
 
     "RemoteOnsite": "Onsite",
@@ -40,7 +40,7 @@
   {
     "id": "3",
     "jobTitle": "Meckanicale Engineer",
-    "companyLogo": "src/assets/logo/tesla-9 1.png",
+    "companyLogo": "https://media.designrush.com/inspiration_images/269905/conversions/1_Tesla_Logo_Design_31692375c0d0-desktop.jpg",
     "companyName": "Tesla",
 
     "RemoteOnsite": "Onsite",
@@ -60,7 +60,7 @@
   {
     "id": "4",
     "jobTitle": "Technical Database Engineer",
-    "companyLogo": "src/assets/logo/google-1-1 1.png",
+    "companyLogo": "https://www.google.com/logos/doodles/2016/34th-anniversary-of-similan-islands-national-park-4857236808531968-hp2x.gif",
     "companyName": "Google LLC",
     "RemoteOnsite": "Remote",
 
@@ -98,7 +98,7 @@
   {
     "id": "6",
     "jobTitle": "Front end development",
-    "companyLogo": "src/assets/logo/google-1-1 1-1.png",
+    "companyLogo": "https://blog.logomyway.com/wp-content/uploads/2017/02/amazon-logo.jpg",
     "companyName": "Amazon",
     "RemoteOnsite": "Onsite",
 

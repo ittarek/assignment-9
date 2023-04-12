@@ -6,9 +6,9 @@ import "./Header.css";
 const Header = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="lg:flex sm:max-w-full lg:justify-between  items-center mb-16 bg-slate-50 rounded-sm ">
-      <div className="company-name">
-        <div onClick={() => setOpen(!open)}>
+    <nav className="lg:flex w-full justify-between header items-center mb-16 bg-slate-50 rounded-sm ">
+      
+      <div onClick={() => setOpen(!open)}>
           {" "}
           <span>
             {open === true ? (
@@ -18,6 +18,9 @@ const Header = () => {
             )}
           </span>{" "}
         </div>
+      
+      <div className="company-name">
+       
 
         <p className="   font-extrabold text-6xl text-pink-300 ">Fit Employ</p>
       </div>

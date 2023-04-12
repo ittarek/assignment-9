@@ -15,8 +15,8 @@ const Feature = ({ data }) => {
   } = data;
   return (
     <div>
-      <div className=" border-solid border shadow-lg w-full rounded-md p-14 ">
-        <img className="mb-5 w-32 rounded-md " src={companyLogo} alt="" />
+      <div className=" border-solid border shadow-lg rounded-md p-14 h-1/2 ">
+        <img className="mb-5 w-1/2 h-24 rounded-md " src={companyLogo} alt="" />
         <p className="font-semibold mb-2 text-2xl">{jobTitle}</p>
         <p className="mb-2 text-xl text-gray-400">{companyName}</p>
         <div className="flex gap-5 font-semibold mb-2">
@@ -32,7 +32,7 @@ const Feature = ({ data }) => {
           <p className="  text-gray-400">{salary}</p>
         </div>
         <Link to={`/jobDetails/${id}`}>
-          <button className="btn  text-white bg-violet-700">
+          <button className="btn mt-8 mb-0  text-white bg-violet-700">
             View Details
           </button>
         </Link>

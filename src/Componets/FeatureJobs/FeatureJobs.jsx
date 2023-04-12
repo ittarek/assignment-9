@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import Feature from "../Feature/Feature";
+import './FeatureJobs.css'
 
 const FeatureJobs = () => {
   const [showAll, setShowAll] = useState(false);
@@ -35,9 +36,10 @@ const FeatureJobs = () => {
         </div>
         <button 
           onClick={() => setShowAll(true)}
-          className="see-all-button btn  text-white bg-violet-700 sm:mr-32 mx-auto mt-5"
+          className="see-all-button btn  text-white bg-violet-700 ml-[600px] "
         >
           See All Jobs
+
         </button>
       </section>
     </div>

@@ -1,5 +1,6 @@
-@media screen and(max-width:576px) {
-  .nav-bar-button {
+@media screen and(min-width:576px) {
+  .header {
+    width: 500px
   
   }
 }

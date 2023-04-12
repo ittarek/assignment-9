@@ -9,24 +9,24 @@ const Home = () => {
 
   return (
     <div>
-      <header className="lg:flex items-center lg:justify-around mb-40">
-        <div>
-          <h1 className="w-3/5 font-extrabold mb-8 ">
+      <header className="lg:flex items-center mt-24 header justify-around mb-40 relative">
+        <div className="mb-8">
+          <p className="w-[340px] font-extrabold mb-8 text-4xl">
             {" "}
             One Step Closer To Your{" "}
             <span className="text-violet-500">Dream Job </span>{" "}
-          </h1>
-          <p className="w-2/3 mb-8 text-gray-400">
+          </p>
+          <p className="w-[400px] mb-8 text-gray-400">
             Explore thousands of job opportunities with all the <br />{" "}
             information you need. Its your future. Come find it. Manage all your
             job application from start to finish.
           </p>
           <button className="btn  text-white bg-violet-700">Get Started</button>
         </div>
-        <div>
+        <div className="w-96">
           <img
-            className="w-25"
-            src="/src/assets/All Images/P3OLGJ1 copy 1.png"
+            className="w-full img-responsive"
+            src="https://thumbs.dreamstime.com/z/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg"
             alt=""
           />
         </div>
@@ -54,7 +54,6 @@ const Home = () => {
       <section>
         <FeatureJobs></FeatureJobs>
       </section>
-      
     </div>
   );
 };

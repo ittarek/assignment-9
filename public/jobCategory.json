@@ -1,28 +1,28 @@
 [
   {
-    "id" : "1",
-    "logo": "src/assets/Icons/accounts 1.png",
+    "id": "1",
+    "logo": "https://as2.ftcdn.net/v2/jpg/04/66/10/77/1000_F_466107741_dUgIJl5oNMwYPGWtiGKo0zAdtFCqxr57.jpg",
     "name": "Account & Finance",
     "JobsAvailable": "300+ jobs available"
   },
 
   {
-    "id" : "2",
-    "logo": "/src/assets/Icons/business 1.png",
+    "id": "2",
+    "logo": "https://img.freepik.com/free-vector/gradient-quill-pen-design-template_23-2149837194.jpg?w=740&t=st=1681263582~exp=1681264182~hmac=b6ff74d79293ed89823a4e2fc7865edeff401ca51aeb3854c2dc37563fce32a0",
     "name": "Creative Design",
     "JobsAvailable": "100+ jobs available"
   },
 
   {
-    "id" : "3",
-    "logo": "/src/assets/Icons/social-media 1.png",
+    "id": "3",
+    "logo": "https://images-platform.99static.com//VzhtwRPMdkKBai58JHcbRJwlyaI=/488x460:988x960/fit-in/590x590/99designs-contests-attachments/70/70747/attachment_70747136",
     "name": "Marketing & Sales",
     "JobsAvailable": "150+ jobs available"
   },
 
   {
-    "id" : "4",
-    "logo": "/src/assets/Icons/chip 1.png",
+    "id": "4",
+    "logo": "https://img.freepik.com/free-vector/excavator-construction-logo-with-buildings_23-2148657768.jpg?w=740&t=st=1681263676~exp=1681264276~hmac=7bec71aee0231a14d85c7a96e0938c32d8b037322880fa06ed7d65c521605714",
     "name": "Engineering Job",
     "JobsAvailable": "224+ jobs available"
   }

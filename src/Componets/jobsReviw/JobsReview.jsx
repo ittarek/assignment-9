@@ -13,9 +13,7 @@ const JobsReview = ({ job }) => {
     salary,
   } = job;
   return (
-
     <div className="flex  mb-b justify-between items-center border border-slate-200 w-5/6 mx-auto p-8">
-    
       <div className=" bg-gray-400">
         <img className="bg-gray-100 w-60 h-48 " src={companyLogo} alt="" />{" "}
       </div>
@@ -35,11 +33,14 @@ const JobsReview = ({ job }) => {
         </div>
       </div>
       <div>
-       <Link to={`/jobDetails/${id}`}>  <button className="btn  text-white bg-violet-700">View Details</button></Link>
+        <Link to={`/jobDetails/${id}`}>
+          {" "}
+          <button className="btn  text-white bg-violet-700">
+            View Details
+          </button>
+        </Link>
       </div>
     </div>
-
-  
   );
 };
 
